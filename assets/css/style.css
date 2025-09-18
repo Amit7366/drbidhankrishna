@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.list-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+
+.list-items li a {
+  text-transform: capitalize;
+  color: #7b7979;
+  font-size: 15px;
+}
+
+.hero{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-text{
+    position: relative;
+    z-index: 5;
+    width: 40%;
+    padding: 8rem 0;
+
+}
+.hero-text .hero-sub-heading{
+    color: #3860e5c8;
+    font-size: 17px;
+    font-weight: 500;
+}
+.main-heading{
+    margin: 10px 0;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.hero-text p{
+    color: #7b7979;
+}
+.line-box{
+    position: relative;
+    width: 150px;
+    height: 1px;
+    background-color: #7b7979;
+    margin-top: 20px;
+}
+.highlight-box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 3px;
+    background-color: #3860e5f4;
+}
+.shape-box {
+    position: absolute;
+    z-index: 4;
+    width: 300px;
+    height: 300px;
+    background-color: #3860e5ae;
+    opacity: 0.09;
+    border-radius: 30% 70% 66% 34% / 30% 30% 70% 70%;
+    left: -77px;
+    top: 66px;
+}
